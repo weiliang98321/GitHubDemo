@@ -12,6 +12,7 @@
 		C0EB31551F3DA4DF0058A1DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0EB31531F3DA4DF0058A1DD /* Main.storyboard */; };
 		C0EB31571F3DA4DF0058A1DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0EB31561F3DA4DF0058A1DD /* Assets.xcassets */; };
 		C0EB315A1F3DA4DF0058A1DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0EB31581F3DA4DF0058A1DD /* LaunchScreen.storyboard */; };
+		C0EB31621F3DA84A0058A1DD /* GitHubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB31611F3DA84A0058A1DD /* GitHubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C0EB31561F3DA4DF0058A1DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0EB31591F3DA4DF0058A1DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0EB315B1F3DA4DF0058A1DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EB31611F3DA84A0058A1DD /* GitHubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				C0EB314F1F3DA4DF0058A1DD /* AppDelegate.swift */,
 				C0EB31511F3DA4DF0058A1DD /* ViewController.swift */,
 				C0EB31531F3DA4DF0058A1DD /* Main.storyboard */,
+				C0EB31611F3DA84A0058A1DD /* GitHubViewController.swift */,
 				C0EB31561F3DA4DF0058A1DD /* Assets.xcassets */,
 				C0EB31581F3DA4DF0058A1DD /* LaunchScreen.storyboard */,
 				C0EB315B1F3DA4DF0058A1DD /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EB31621F3DA84A0058A1DD /* GitHubViewController.swift in Sources */,
 				C0EB31521F3DA4DF0058A1DD /* ViewController.swift in Sources */,
 				C0EB31501F3DA4DF0058A1DD /* AppDelegate.swift in Sources */,
 			);
@@ -301,6 +305,7 @@
 				C0EB31601F3DA4DF0058A1DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
